@@ -1,0 +1,4 @@
+1: rustfmt  "name of file" .rs 
+  use in formating code 
+
+2: 
