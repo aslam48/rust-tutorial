@@ -1,0 +1,12 @@
+** creating a rust project **
+
+-- cargo new  "name of project"
+
+
+** start a rust project **
+
+--NOTE: when you have your rust projet set up you can do "cargo run" to run you project
+
+
+** check you project for errors **
+--  run cargo check 
