@@ -49,7 +49,7 @@ fn test_aslam() {
     println!("LIFTOFF!!!");
 
 
-    let a = [10, 20, 30, 40,50];
+    let a: [i32; 5] = [10, 20, 30, 40,50];
     let mut index = 0;
     while index < 5 {
         println!("this is the number loop {}", a[index]);
@@ -57,6 +57,7 @@ fn test_aslam() {
     }
 
     for number in (1..4).rev() {
+        
         println!("{}!", number);
         }
         println!("LIFTOFF!!!");
