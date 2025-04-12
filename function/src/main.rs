@@ -1,8 +1,19 @@
-fn main() {
-    println!("hello aslam you will bececome a really good rust programmer!");
-    anotherFunction("aslam", 5);
+// function parms
+// fn main(){
+//     another_function(5);
+// }
+
+// fn another_function(x:i32){
+//     println!("this is a sign number: {}", x);
+// }
+
+
+// double prarams function 
+
+fn main(){
+    another_function(5, 'h');
 }
 
- fn anotherFunction(name:&str, age:i8) {
-    println!("how old are you: {name},  i am {age}");
- }
+fn another_function(x:i32, y:char){
+    println!("this is a sign number: {x}{y}");
+}
