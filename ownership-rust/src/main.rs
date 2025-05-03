@@ -13,7 +13,7 @@ fn main(){
    println!("the length of {s1} is {len}");
 }
 
-fn calulate_length(s: &String) -> isize {
+fn calulate_length(s: &String) -> usize {
     s.len()
 }
 
